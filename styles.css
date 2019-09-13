@@ -1,0 +1,34 @@
+body {
+    color: blue;
+  }
+  
+  h1 {
+    text-align: center;
+    color: rgb(168, 50, 50);
+    font-size: 60pt;
+  }
+
+  button {
+
+    height: 50px; 
+    min-width: 200px; 
+   
+  }
+
+#picDice {
+    display: flex;
+    min-width: 100px;
+    max-width: 5000px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+p1 {
+    display: flex;
+    justify-content: center;
+    /* flex-direction: column; */
+    
+    flex-wrap: wrap;
+}
